@@ -2,6 +2,6 @@
 
 a tarot deck very simple with tests phpunit and behat
 
- ### License
+### License
 
  (http://opensource.org/licenses/MIT)
