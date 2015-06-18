@@ -1,0 +1,25 @@
+{
+    "name": "game/game",
+    "description": "game object php",
+    "type": "php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Antoine07",
+            "email": "antoine.lucsko@wanadoo.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "behat/behat": "3.0.x-dev",
+        "behat/mink": "1.6.*",
+        "behat/mink-extension": "*",
+        "behat/mink-goutte-driver" : "*",
+        "behat/mink-selenium2-driver" : "*"
+    },
+    "autoload" :{
+        "psr-4": {
+            "" : "src/"
+        }
+    }
+}
